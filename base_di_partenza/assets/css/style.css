@@ -325,3 +325,22 @@ footer a {
         display: inline-block;
     }
 }
+
+@media print {
+
+    header,
+    aside,
+    iframe,
+    footer,
+    section {
+        display: none;
+    }
+
+    h1 {
+        font-size: 1.5em;
+    }
+
+    body {
+        font-size: 23px;
+    }
+}
